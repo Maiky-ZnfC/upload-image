@@ -1,0 +1,5 @@
+<h1>File Upload</h1>
+<img [src]="previewUrl" width="100" alt="">
+<input type="file" (change)="onFileSelected($event)">
+<button type="button" (click)="onUpload()">Upload</button>
+<a href="{{serverURL}}">{{serverURL}}</a>
